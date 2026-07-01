@@ -130,54 +130,8 @@ O **Naive Bayes** apresentou o menor desempenho, possivelmente pela violação d
 
 O experimento complementar com **SVM RBF** obteve F1 macro de aproximadamente `0,7261` no teste final, reforçando que o baixo desempenho do SVM Linear não deve ser interpretado como limitação geral do SVM, mas como consequência da configuração linear adotada.
 
-## Estrutura sugerida do repositório
 
-```text
-.
-├── README.md
-├── artigo/
-│   ├── main.tex
-│   ├── referencias.bib
-│   ├── sbc-template.sty
-│   └── figuras/
-│       ├── distribuicao_variavel_alvo.png
-│       ├── painel_metricas_balanceamento_estrategias.png
-│       ├── painel_desempenho_estabilidade.png
-│       └── painel_analise_classes_erros.png
-├── data/
-│   ├── original/
-│   └── processed/
-├── notebooks/
-│   └── projeto_ia_diamonds.ipynb
-├── resultados/
-│   ├── tabelas/
-│   ├── graficos/
-│   └── modelos/
-└── requirements.txt
-```
 
-A estrutura pode ser adaptada conforme a organização final do repositório.
-
-## Como executar
-
-1. Clone o repositório:
-
-```bash
-git clone <url-do-repositorio>
-cd <nome-do-repositorio>
-```
-
-2. Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Execute o notebook principal:
-
-```bash
-jupyter notebook notebooks/projeto_ia_diamonds.ipynb
-```
 
 Ou abra o notebook no Google Colab.
 
